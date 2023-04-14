@@ -7,13 +7,21 @@
   
   <title>Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
+  <meta name="description" content="前言本课程只适合学过 nodeJs 的同学。 一、Koa2 安装创建一个空白目录，然后进入终端，并在终端对 koa 进行安装： 12345# 项目初始化npm init -y# 安装koa2npm i koa2 -S  二、入口文件在项目根目录创建 app.js 文件，并在上一步操作中生成的 package.json 里配置： 123456&amp;#123;  &quot;scripts&quot;:">
+<meta property="og:type" content="article">
 <meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://example.com/index.html">
+<meta property="og:url" content="http://example.com/2023/04/14/blog/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="前言本课程只适合学过 nodeJs 的同学。 一、Koa2 安装创建一个空白目录，然后进入终端，并在终端对 koa 进行安装： 12345# 项目初始化npm init -y# 安装koa2npm i koa2 -S  二、入口文件在项目根目录创建 app.js 文件，并在上一步操作中生成的 package.json 里配置： 123456&amp;#123;  &quot;scripts&quot;:">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://segmentfault.com/img/bV6DZG/view?w=478&h=435">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/3663059-b6acea9ec3f0a8f9.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/883/format/webp">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/3663059-03622ea2a9ffce2a.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/814/format/webp">
+<meta property="article:published_time" content="2023-04-14T13:27:01.704Z">
+<meta property="article:modified_time" content="2023-04-14T13:27:19.156Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://segmentfault.com/img/bV6DZG/view?w=478&h=435">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -62,9 +70,7 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-blog" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-blog" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2023/04/14/blog/" class="article-date">
   <time datetime="2023-04-14T13:27:01.704Z" itemprop="datePublished">2023-04-14</time>
@@ -199,60 +205,19 @@
     </footer>
   </div>
   
-</article>
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2023/04/14/hello-world/" class="article-date">
-  <time datetime="2023-04-14T12:25:52.787Z" itemprop="datePublished">2023-04-14</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2023/04/14/hello-world/">Hello World</a>
-    </h1>
+    <a href="/2023/04/14/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Hello World</div>
+    </a>
   
+</nav>
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2023/04/14/hello-world/" data-id="clggkr8bh0000l0uz8ho35c0b" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
   
 </article>
-
-
-  
-
 
 </section>
         
